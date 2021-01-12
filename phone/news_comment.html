@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="css/ui-box.css">
+        <link rel="stylesheet" href="css/ui-base.css">
+        <link rel="stylesheet" href="css/ui-color.css">
+        <link rel="stylesheet" href="css/appcan.icon.css">
+        <link rel="stylesheet" href="css/appcan.control.css">
+        <link rel="stylesheet" href="news_comment/css/news_comment.css">
+    </head>
+
+    <body class="" ontouchstart>
+        <div class="bc-bg" tabindex="0" data-control="PAGE" id="Page">
+            <div class="uh bc-head  ubb bc-border" data-control="HEADER" id="Header">
+                <div class="ub">
+                    <div class="nav-btn" id="nav-left">
+                        <div class="fa fa-1g ub-img1 fa-angle-left fa-2x"></div>
+                    </div>
+                    <h1 class="ut ub-f1 ulev-3 ut-s tx-c" tabindex="0">评论</h1>
+                    <div class="nav-btn" id="nav-right">
+                        <div class="fa  fa-1g  ub-img1"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="" data-control="CONTENT" id="ScrollContent">
+                <div class="scrollbox">
+                    <div class="box_bounce ub ub-ver ub-pc">
+                        <div class="ub-f1"></div>
+                        <div class="bounce_status">
+                            下拉更新......
+                        </div>
+                        <div class="bounce_status">
+                            松手更新......
+                        </div>
+                        <div class="bounce_status">
+                            更新中......
+                        </div>
+                    </div>
+                    <div class="ub ub-ver uinn3" id="comment" data-bind="collection:$collection">
+                        <ul ontouchstart="appcan.touch(\'btn-act\')" class="ubb ub bc-border lis" mvvm-scope>
+                            <li class="uh-app3 uw-app3 uc-a-app2 ub-img mar-ar1" data-bind="css:{'background-image':format('url($1)',avator)}"></li>
+                            <li class="ub-f1 ub ub-ver">
+                                <div class="ub ub-f1 ub-ac">
+                                    <div class="ut-s ulev-4 t-blu " data-bind="text:username"></div>
+                                </div>
+                                <div class="ub umar-t">
+                                    <div class="ub-f1 ub t-gra-comm ulev-2">
+                                        <div class="umar-r-comm" data-bind="text:time"></div>
+                                        <div data-bind="text:city"></div>
+                                    </div>
+                                    <div class="ub ub-pe tx-r">
+                                        <div class="t-gra-comm ufm1 ulev-2 umar-r" data-bind="text:praise"></div>
+                                        <div class="ub-img praise uh-comm2 uw-comm2"></div>
+                                    </div>
+                                </div>
+                                <div class="t-bla ulev-4 ub-f1 umar-t" data-bind="text:content"></div>
+                                <div data-bind="for:followReply" mvvm-scope>
+                                    <div class="uba bc-border c-gra-comm uc-a1 umar-at1">
+                                        <div class="uinn-comm ulev-4">
+                                            <div class="t-blu line-hei-com" data-bind="text:replyName"></div>
+                                            <div class="t-gra2-comm line-hei-com" data-bind="text:replyContent"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="uf sc-bg ubt sc-border-tab ub ub-pc ub-ac" data-control="FOOTER" id="Footer">
+                <div class="ub-f1 ub ub-ac umar-a uinn3 uc-a1" data-control="BOX" id="Box_footer">
+                    写评论
+                </div>
+            </div>
+            <div class="utra" data-control="MASK" id="Mask">
+                <!-- <div class=""  data-control="FOOTER" id="Box_footer_mask">
+
+                </div> -->
+            </div>
+            <div class="uhide"  data-control="FOOTER" id="Box_footer_maskout">
+                <div class="ub ub-ver ub-fh bc-bg" style="bottom: 0;left: 0;position: absolute;">
+                    <div class="ub ub-ac c-wh">
+                        <div class="umw3 ub ub-ac ub-pc uinn" ontouchstart="appcan.touch('')">
+                            <div class="ub-img quxiao umw1 umh1"></div>
+                        </div>
+                        <div class=" tx-c t-bla ub-f1">
+                            写评论
+                        </div>
+                        <div class="umw3 ub ub-ac ub-pc uinn" ontouchstart="appcan.touch('')" >
+                            <div class="ub-img queding  umw1 umh1"></div>
+                        </div>
+                    </div>
+                    <div class="uba bc-border uinput ub ub-f1">
+                        <textarea placeholder="" type="text" class="ub ub-f1" id="common_area"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/appcan.js"></script>
+        <script src="js/appcan.control.js"></script>
+        <script src="js/appcan.scrollbox.js"></script>
+        <script src="js/template.import.js"></script>
+        <script src="./assets/mvvm/news_comment.js"></script>
+        <script src="./js/news_comment.js"></script>
+    </body>
+
+</html>

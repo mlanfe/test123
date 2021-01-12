@@ -1,0 +1,147 @@
+#Header_0 {
+    color:rgba(255,255,255,1);
+    border-style:none;
+}
+#Tab_header {
+    background-color:rgba(238,238,238,1);
+    border-style:none;
+}
+#ScrollContent {
+    padding:4.69em 0em 3.06em 0em;
+}
+#Footer {
+    background-color:rgba(238,238,238,1);
+    border-color:rgba(220,220,220,1);
+    border-style:solid;
+    border-top-width:1px;
+    border-bottom-width:00px;
+    border-right-width:00px;
+    border-left-width:00px;
+}
+
+.newsban{
+	background-image:url('myImg/yaoming.png');
+}
+.ub-imgnews
+{	
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.uh-for1{
+	height:10.625em;
+}
+.uh-for2{
+	height:2.8em;
+}
+.c-bla-50{
+	background-color:rgba(0,0,0,0.4);
+}
+.uwh-for1{
+	width:0.25em;
+	height:0.25em;
+}
+.uwh-for2{
+	width:4.5625em;
+	height:3.75em;
+}
+.uc-a-for1{
+	-webkit-border-radius: 0.25em;
+	border-radius: 0.25em;
+}
+.c-gra-for2{
+	background-color:#767676;
+}
+.umar-r-for{
+	margin-right:0.1875em;
+}
+.uinn-for1{
+	padding:0.625em 0.625em 0.4375em 0.625em;
+}
+.t-gra-b1{
+	color:#b1b1b1;
+}
+.ulh-for{
+	line-height:1.4em;
+}
+.uinn-for2{
+	padding:0.2em 0.5em;
+}
+.c-red-for3{
+	background-color:#ad0000;
+}
+.uc-a-news{
+	-webkit-border-radius: 0.2em;
+	border-radius: 0.2em;
+}
+.ubas-nt{
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+
+
+
+.newstianjia{
+    background-image:url('myImg/tianjia.png');
+}
+.t-btn-hf1{
+    background-image:url('myImg/xuanzhong1.png');
+}
+input[type="radio"]:checked + div.fontcolor {
+    color:#218dd5;
+    border-bottom: 1px solid #218dd5;
+}
+input[type=radio]+div.fontcolor {
+    color:#a1a1a1;
+    border-bottom: 1px solid #f1f1f1;
+}
+.uinn-hnfn2{
+    padding:0.78em 0;
+}
+.uw-hnfn1{
+    width:2.2em;
+}
+.us-hnfn {
+    -webkit-box-shadow:inset 1px 0 20px rgba(0, 0, 0, .3);
+    box-shadow:inset  1px 0 20px rgba(0, 0, 0, .3)
+}
+.tp-news{
+    background-image: url(myImg/f-btn-img2.png);
+}
+.f-btn-act .tp-news{
+    background-image: url(myImg/f-btn-img2-act.png);
+}
+.tp-mito{
+    background-image: url(myImg/f-btn-img3.png);
+}
+.f-btn-act .tp-mito{
+    background-image: url(myImg/f-btn-img3-act.png);
+}
+ .tp-subs{
+    background-image: url(myImg/f-btn9.png);
+}
+.f-btn-act .tp-subs{
+    background-image: url(myImg/f-btn9-act.png);
+}
+.tp-video{
+    background-image: url(myImg/f-btn10.png);
+}
+.f-btn-act .tp-video{
+    background-image: url(myImg/f-btn10-act.png);
+}
+.act-col{
+    color:#000;
+}
+.f-btn-act .act-col{
+    color:#ef6413;
+}
+.uwh-tBtn{
+    width: 1.75em;
+    height: 1.75em;
+}
+.uh-oan1{
+    height:9.3125em;
+}

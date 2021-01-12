@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="css/ui-box.css">
+        <link rel="stylesheet" href="css/ui-base.css">
+        <link rel="stylesheet" href="css/ui-color.css">
+        <link rel="stylesheet" href="css/appcan.icon.css">
+        <link rel="stylesheet" href="css/appcan.control.css">
+        <link rel="stylesheet" href="news_photoList/css/news_photoList.css">
+    </head>
+
+    <body class="" ontouchstart>
+        <div class="bc-bg" tabindex="0" data-control="PAGE" id="Page">
+            <div class="uh bc-head  ubb bc-border" data-control="HEADER" id="Header">
+                <div class="ub">
+                    <div class="nav-btn" id="nav-left">
+                        <div class="fa fa-1g ub-img1 fa-angle-left fa-2x"></div>
+                    </div>
+                    <h1 class="ut ub-f1 ulev-3 ut-s tx-c" tabindex="0">图片</h1>
+                    <div class="nav-btn" id="nav-right">
+                        <div class="fa  fa-1g  ub-img1"></div>
+                    </div>
+                </div>
+
+                <div class="ub ubb b-gra-a1 ub-f1 sc-bg">
+                    <div class="ub ub-f1" data-control="TAB" id="Tab"></div>
+
+                    <div class="uinn-pL2 ">
+                        <div class=" uwh-pL ub-img newsnext"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="" data-control="CONTENT" id="ScrollContent">
+                <div class="scrollbox">
+                    <div class="box_bounce ub ub-ver ub-pc">
+                        <div class="ub-f1"></div>
+                        <div class="bounce_status">
+                            下拉更新......
+                        </div>
+                        <div class="bounce_status">
+                            松手更新......
+                        </div>
+                        <div class="bounce_status">
+                            更新中......
+                        </div>
+                    </div>
+                    <div class="c-wh2 ub-ver">
+                        <div class="uinn-npic1" id="picList" data-bind="collection:$collection">
+                            <div class="uinn-npic2" ontouchstart="appcan.touch(\'\')" mvvm-scope>
+                              <div class="uba bc-border c-wh" >
+                                  <div class="ub-img7 ub-fh uh-npic1" data-bind="css:{'background-image':format('url($1)',newsImg)}"></div>
+                                  <div class="ub uinn">
+                                      <div class="ulev-4 ub-f1" data-bind="text:imgTit"></div>
+                                      <div class="ub ub-pe">
+                                          <div class="ub ub-ac umar-npic3">
+                                              <div class="ub-img newscommon umw1 umh1 umar-npic1"></div>
+                                              <div class="t-gra-9c ulev-2" data-bind="text:commentNum"></div>
+                                          </div>
+                                          <div class="ub ub-ac">
+                                              <div class="ub-img newsunknown umw1 umh1 umar-npic1"></div>
+                                              <div class="t-gra-9c ulev-2" data-bind="text:imgNum"></div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/appcan.js"></script>
+        <script src="js/appcan.control.js"></script>
+        <script src="js/appcan.scrollbox.js"></script>
+        <script src="js/template.import.js"></script>
+        <script src="js/appcan.tab.js"></script>
+        <script src="./assets/mvvm/news_photoList.js"></script>
+        <script src="./js/news_photoList.js"></script>
+    </body>
+
+</html>

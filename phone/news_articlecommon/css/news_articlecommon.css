@@ -1,0 +1,106 @@
+#HeaderBox {
+	height:2.63em;
+	color:rgba(255,255,255,1);
+}
+#Icon {
+	width:3em;
+}
+#Button_tilte {
+	border-radius:5px;
+}
+#ScrollContent {
+	padding:2.69em 0em 0em 0em;
+}
+#Footer {
+	height:3.00em;
+	background-color:rgba(238,238,238,1);
+	border-style:solid;
+	border-color:rgba(213,213,213,1);
+	border-top-width:1px;
+	border-bottom-width:00px;
+	border-right-width:00px;
+	border-left-width:00px;
+}
+/*#Input_footer {
+	border-color:rgba(198,198,198,1);
+	border-radius:3px;
+	border-style:solid;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-width:1px;
+}*/
+#Icon_footer0 {
+	width:3em;
+}
+#Icon_footer1 {
+	width:3em;
+}
+#Box_footer {
+    height:1.88em;
+    border:1px solid #bababa;
+}
+#Box_footer_mask{
+    height:5em;
+    width:100%;
+}
+.backpicture{
+    background-image:url('myImg/backpicture.png');
+}
+.t-gra
+{
+    color:gray;
+}
+.t-bg{
+    color:#434343;
+}
+.ulh-a{
+    line-height:1.4em;
+}
+
+.c-bcom{
+    background-color:#0670b7;
+}
+.shoucang{
+    background-image:url('myImg/shoucang.png');
+}
+.zhuanfa{
+    background-image:url('myImg/zhuanfa.png');
+}
+.quxiao{
+    background-image:url('myImg/quxiao.png');
+}
+.queding{
+    background-image:url('myImg/queding.png');
+}
+.t-gra
+{
+    color:gray;
+}
+.uc-a1 {
+    -webkit-border-radius: .2em;
+    border-radius: .2em
+}
+.uban
+{
+    border:1px solid #f1f1f1;
+    
+}
+.t-bg{
+    color:#434343;
+}
+.b-blu-00{
+    border-color:#0060a1;
+}
+.uinn-ha1{
+    padding:0.625em 0.3125em;
+}
+.uinn-ha2{
+    padding:0.5em 0.625em;
+}
+#Box_footer_maskout{
+    background-color:#ffffff;
+    min-height:8em;
+    width:100%;
+    z-index:1002;
+}

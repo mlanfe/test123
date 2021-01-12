@@ -1,0 +1,68 @@
+#Header {
+	color:rgba(255,255,255,1);
+}
+#ScrollContent {
+	padding:2.69em 0em 0em 0em;
+}
+.newsguoji{
+    background-image:url('myImg/guoji.png');
+}
+.newsguonei{
+    background-image:url('myImg/guonei.png');
+}
+.newshuanbao{
+    background-image:url('myImg/huanbao.png');
+}
+.newsjunshi{
+    background-image:url('myImg/junshi.png');
+}
+.newslishi{
+    background-image:url('myImg/lishi.png');
+}
+.newsshehui{
+    background-image:url('myImg/shehui.png');
+}
+.newsshendu{
+    background-image:url('myImg/shendu.png');
+}
+.newsshishang{
+    background-image:url('myImg/shishang.png');
+}
+.newstansuo{
+    background-image:url('myImg/tansuo.png');
+}
+.newstaolun{
+    background-image:url('myImg/taolun.png');
+}
+.newsyule{
+    background-image:url('myImg/yule.png');
+}
+input[type=checkbox]:checked +div> div.bcolor {
+    background-color:#0071ac
+}
+input[type=checkbox]+div>div.bcolor {
+    background-color:#d7d7d7
+}
+input[type=checkbox]:checked +div> div.newstianjia {
+    background-image:url('myImg/xuanze.png');
+}
+input[type=checkbox]+div>div.newstianjia {
+    background-image:url('myImg/tianjia.png');
+}
+
+.b-gra-c4{
+    border-color:#c4c4c4;
+}
+.us-add1 {
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+.ubb-add{
+    border-bottom:3px solid #c4c4c4;
+}
+.t-gra-3e{
+    color:#3e3e3e
+}
+.uinn-add1{
+    padding:0.85em;
+}

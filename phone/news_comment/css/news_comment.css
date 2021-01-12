@@ -1,0 +1,101 @@
+#Header {
+	color:rgba(255,255,255,1);
+}
+#ScrollContent {
+	padding:2.69em 0em 2.75em 0em;
+}
+#Footer {
+	border-top-width:1px;
+	border-right-width:00px;
+	border-bottom-width:00px;
+	border-left-width:00px;
+	border-style:solid;
+	border-color:rgba(202,202,202,0);
+}
+#Box_footer {
+	height:1.88em;
+	border:1px solid #bababa;
+}
+#Box_footer_mask{
+    height:5em;
+    width:100%;
+}
+.uw-comm2{
+    width:0.625em;
+}
+.uh-comm2{
+    height:0.625em;
+}
+
+.t-gra-comm{
+    color:#989898;
+}
+.t-gra2-comm{
+    color:#707070;
+}
+.umar-r-comm{
+    margin-right:2em;
+}
+.praise{
+    background-image:url('myImg/zan.png');
+}
+.c-gra-comm{
+    background-color:#ebebeb;
+}
+.uinn-comm{
+    padding:0.42em 0.625em 0.625em 0.625em;
+}
+.line-hei-com{
+    line-height:1.6em;
+}
+.uh-app3{
+    height:2.8125em;
+}
+.uw-app3{
+    width:2.8125em;
+}
+.uc-a-app2{
+    -webkit-border-radius: 2.8125em;
+    border-radius: 2.8125em;
+}
+.umar-at1{
+    margin: 0 .5em .5em 0;
+}
+
+.c-wh1{
+    background-color:#f1f1f1;
+}
+.c-bbla{
+    background-color:#959595;
+}
+.newspicture{
+    background-image:url('myImg/picture.png');
+}
+.newszan{
+    background-image:url('myImg/zan.png');
+}
+.quxiao{
+    background-image:url('myImg/quxiao.png');
+}
+.queding{
+    background-image:url('myImg/queding.png');
+}
+.t-gra
+{
+    color:gray;
+}
+.uc-a1 {
+    -webkit-border-radius: .2em;
+    border-radius: .2em
+}
+.uban
+{
+    border:1px solid #f1f1f1;
+    
+}
+#Box_footer_maskout{
+    background-color:#ffffff;
+    min-height:8em;
+    width:100%;
+    z-index:1002;
+}
