@@ -154,7 +154,7 @@
             appcan.openWinWithUrl('news_articlecommon', 'news_articlecommon.html');
         })
          $("#importantNews").on('click',function(){
-            console.log('发生了点击事件')
+            console.log('发生了点击事件')     
             // appcan.openWinWithUrl('news_articlecommon', 'news_articlecommon.html');
             appcan.openWinWithUrl('important_news', 'important_news.html');           
             console.log('====================')
